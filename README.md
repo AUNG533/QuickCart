@@ -34,3 +34,27 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# Clear Setup
+
+- [Document] (https://dashboard.clerk.com/apps/app_2zolHo5Dfwo6zEnl9YyNW4ETl8L/instances/ins_2zolHpP4aw1foNLNqtN4YaYNi8m)
+
+### install clerk
+
+`npm install @clerk/nextjs`
+
+### Set Clerk API keys
+
+![Step 2 instructions for setting Clerk API keys. The left side explains to add Clerk API keys to the .env file or create the file if it does not exist, and provides a link to the API keys page. The right side shows a code block labeled .env with two example environment variables: NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY and CLERK_SECRET_KEY, each followed by sample values. The overall tone is instructional and clear, with a focus on guiding the user through configuration.]
+copy this keys and past to .env file
+
+### Update middleware.ts
+
+### install mongoose
+
+`npm i mongoose`
+
+### connect to mongodb
+
+in .env file add
+`MONGODB_URI="you url"`
